@@ -1,0 +1,16 @@
+---
+
+# Install
+- import_tasks: install.yml
+  tags:
+    - manala_shorewall
+
+# Configs
+- import_tasks: configs.yml
+  tags:
+    - manala_shorewall
+
+# Config
+- import_tasks: config.yml
+  tags:
+    - manala_shorewall
